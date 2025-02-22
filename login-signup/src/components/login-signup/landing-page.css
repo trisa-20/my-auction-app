@@ -1,0 +1,132 @@
+.landing-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #e3dddd;
+    color: white;
+  }
+  
+  .header .logo {
+    color: #232325;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header nav ul li {
+    display: inline;
+  }
+  
+  .header nav ul li a {
+    color: #232325;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .hero {
+    background: #eaeaea;
+    padding: 60px 20px;
+  }
+  
+  .hero h1 {
+    color: #3c009d;
+    font-size: 36px;
+  }
+  
+  .hero p {
+    color: #555;
+    font-size: 18px;
+  }
+  
+  .cta-button {
+    background: #4c00b4;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .how-it-works {
+    background-color: #e3dddd;
+    padding: 50px 20px;
+  }
+  
+  .how-it-works h2 {
+    color: #3c009d;
+    font-size: 28px;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+  }
+  
+  .step {
+    background: #eaeaea;
+    padding: 20px;
+    border-radius: 6px;
+    width: 200px;
+  }
+  
+  .featured-auctions {
+    background: #eaeaea;
+    padding: 50px 20px;
+  }
+  
+  .featured-auctions h2 {
+    color: #3c009d;
+    font-size: 28px;
+  }
+  
+  .auction-items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .auction-item {
+    background: #e3dddd;
+    padding: 20px;
+    border-radius: 6px;
+    width: 220px;
+  }
+  
+  .auction-item img {
+    width: 100%;
+    border-radius: 6px;
+  }
+  
+  .auction-item h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #3c009d;
+  }
+  
+  .auction-item p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  footer {
+    background: #3c009d;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
